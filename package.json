@@ -1,0 +1,23 @@
+{
+  "name": "@tyler.thayn/jquery.properties",
+  "version": "0.1.0",
+  "description": "jQuery extension for setting data properties with listeners",
+  "main": "jquery.properties.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerthayn/jquery.properties.git"
+  },
+  "keywords": [
+    "jquery",
+    "properties"
+  ],
+  "author": "Tyler Thayn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tylerthayn/jquery.properties/issues"
+  },
+  "homepage": "https://github.com/tylerthayn/jquery.properties#readme"
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+		<title>jquery.properties test</title>
+		<script src="require.js"></script>
+		<script>
+			require(['jquery', '../jquery.properties.js'], ($) => {
+				$(() => {
+
+					$('.Test').Property('MyProp', function (...args) {
+						console.log(this)
+						console.log(args)
+					})
+					$('.Test').Property('OtherProp', function (...args) {
+						console.log(this)
+						console.log(args)
+					})
+					$('.Test').Property('AnotherProp', function (...args) {
+						console.log(this)
+						console.log(args)
+					})
+
+
+					$('.Test').Property('MyProp', 'MyVal')
+					$('.Test').data({OtherProp: 115, AnotherProp: true})
+
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div class="Test"></div>
+	</body>
+</html>
