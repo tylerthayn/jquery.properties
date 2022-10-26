@@ -1,7 +1,7 @@
 /**
 * @module @tyler.thayn/jquery.properties
 */
-require(['jquery'], ($) => {
+define(['jquery'], ($) => {
 	let dataFn = $.fn.data
 
 	/** data-change event

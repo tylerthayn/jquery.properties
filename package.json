@@ -1,6 +1,6 @@
 {
   "name": "@tyler.thayn/jquery.properties",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "jQuery extension for setting data properties with listeners",
   "main": "jquery.properties.js",
   "scripts": {
